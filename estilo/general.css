@@ -1,0 +1,93 @@
+main {
+    display: grid;
+    gap: 100px;
+    grid-auto-columns: minmax(30px, auto);
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav {
+    background-color: gainsboro;
+    margin-left: -10px;
+    width: 100%;
+    padding-right: 18px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Segoe UI";
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    height: 80%;
+}
+
+article {
+    width: 33%;
+    margin-right: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header {
+    background: url("../multimedia/fondo.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Segoe UI";
+}
+
+p {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 80%;
+}
+
+audio {
+    margin-bottom: -40%;
+}
